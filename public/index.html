@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title> Ejercicio 10</title>
+        <link rel="stylesheet" type="text/css" href="css/eje-jrsu-10.css"/>
+        
+    </head>
+    <body>
+        <header>
+            <h1> Ejercicio 10 </h1>
+        </header>
+        <main>
+            <div id="container">
+                <form name="calculator">
+                    <h2>Calculadora Básica</h2>
+                    <div id="entradas">
+                        <input type="text" name="ent1" value="0" class="entrada">
+                        <input type="text" name="ent2" value="0" class="entrada">
+                    </div>
+                    <div>
+                        <label for="resultado">Resultado: 0.0</label>
+                    </div>
+                    <div id="botones">
+                        <input type="button" value="+" class="boton" onclick="sumaNumeros()">
+                        <input type="button" value="-" class="boton" onclick="restaNumeros()">
+                        <input type="button" value="*" class="boton" onclick="multiplicaNumeros()">
+                        <input type="button" value="/" class="boton" onclick="divideNumeros()">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 Jose Refugio Salinas Uribe</p>
+        </footer>
+        <script src="js/eje-jrsu-10.js"></script>
+    </body>
+</html>
